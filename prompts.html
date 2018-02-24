@@ -13,8 +13,8 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFB81C">
+          <a class="navbar-brand" href="index.html">Baylor ECS Week Hackathon</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,40 +32,42 @@
               </li>
 
             </ul>
-            
+
           </div>
         </nav>
       </header>
 
 
      <!--Bulid cards for each Prompt -->
-     <span class="promptCards">
-           <div class="card pCard" style="width: 18rem;">
-              <img class="card-img-top" src="/styles/images/watch.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Wear Application</h5>
-                <p class="card-text">Make a wear application for either IOS or Android Wear </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-           </div>
-            <div class="card pCard" style="width: 18rem;">
-               <img class="card-img-top" src="/styles/images/unity.png" alt="Card image cap">
-               <div class="card-body">
-                 <h5 class="card-title">Unity Game</h5>
-                 <p class="card-text">Make a game using Unity API that is for the good of humanity</p>
-                 <a href="https://unity3d.com" class="btn btn-primary">Go to Unity</a>
-               </div>
-            </div>
-            <div class="card pCard" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Best Website that fits these domain names</h5>
-                  <p class="card-text">Make a website that fits one of these domain name: </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-             </div>
-     </ul>
+     <div class="jumbotron">
+        <h1 class="display-4 card-title">Domain Name Challenge!</h1>
+        <p class="lead">Build a website that accurately embodies one of these domain names</p>
+        <hr class="my-4">
+        <p>Spongespoonfactory.org </br>
+           Computerprofessor.edu   </br>
+           Whatapotato.com </br>
+           Iamthecabdriver.com </br>
+           1000thvalueofp.net </br>
+        </p>
 
+    </div>
+    <div class="jumbotron">
+       <h1 class="display-4">Wear Application Challenge!</h1>
+       <p class="lead">Build an application for either IOS or Android wear for the good of humanity!</p>
+       <hr class="my-4">
+       <p class="lead">
+         <a class="btn btn-primary btn-lg" href="https://developer.android.com/studio/index.html" role="button">Android Studios</a>
+         <a class="btn btn-primary btn-lg" href="https://developer.apple.com/watchos/" role="button">IOS Wear</a>
+       </p>
+   </div>
+   <div class="jumbotron">
+      <h1 class="display-4">Game Design Challenge!</h1>
+      <p class="lead">Use the Unity API to build a game for the good of humanity!</p>
+      <hr class="my-4">
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="https://unity3d.com" role="button">Unity</a>
+      </p>
+  </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
