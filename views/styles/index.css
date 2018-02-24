@@ -1,0 +1,21 @@
+.content{
+  width: 100%;
+  margin-top: 20%;
+  align-content: center;
+}
+.welcome{
+
+  width: 100%;
+  text-align: center;
+}
+body{
+  background-color: #006400;
+}
+.hide{
+  background-color: transparent;
+  border-color: transparent;
+}
+.box{
+  box-sizing: border-box;
+  border: 2px solid white;
+}
