@@ -13,31 +13,31 @@
 
   <body>
     <!--Build the nav bar using bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar" style="background-color:#CCCC00">
-        <a class="navbar-brand" href="#">Baylor University ECS Week</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <div class='box'>
-                <button class= "hide nav-link"><a href='index.html'>Home</a></button>
-              </div>
-            </li>
-            <li class="nav-item">
-              <div class='hide'>
-                <button class= "hide nav-link" >Prompts</button>
-              </div>
-            </li>
-            <li class="nav-item">
-              <form class='hide' action='organizations' method="POST">
-                <button class= "hide nav-link" >Organizations</button>
-              </form>
-            </li>
-          </ul>
-      </div>
-     </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="prompts.html">Prompts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="organizations.html">Organizations</a>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
     <!--Build the Welcome Text
     <div class='content'>
